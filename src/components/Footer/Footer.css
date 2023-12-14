@@ -1,0 +1,43 @@
+.footer {
+    border-top: 2px solid #000000;
+    text-align: center;
+  }
+  
+  .text-footer {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .footer-icon {
+    margin: 0 10px;
+  }
+  
+  .footer-copyright {
+    background-color: #4E4E4E;
+    padding: 10px;
+  }
+  
+  .footer-copyright p {
+    margin: 0;
+    color: #ffffff;
+  }
+
+  @media (max-width: 500px) {
+    .text-footer{
+      font-size: 25px;
+    }
+  }
+
+  @media (max-width: 375px){
+    .text-footer{
+      font-size: 22px;
+    }
+
+    .footer-copyright p {
+      font-size: 15px;
+    }
+  }

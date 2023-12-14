@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.Personalizado{
+    background-image: url(../../assets/img/Rectangle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+  }
+  
+  .personalizado-text{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: 20%;
+  }
+  .personalizado-text h1{
+    font-size: 50px;
+    margin-top: 5%;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+  }
+  .personalizado-text h2{
+    display: none;
+  }
+
+  .personalizado-text p{
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .personalizado-cuatro h4{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -1%;
+  }
+  .uno{
+    margin-left: 30%;
+  }
+  .dos{
+    margin-left: 6%;
+  }
+
+  .Personalizado {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .Personalizado.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 1450px) {
+
+    .Personalizado {
+      background-image: url(../../assets/img/Rectangle.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      margin-right: 1%;
+      position: relative; 
+    }
+    
+    .personalizado-text {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      margin-left: 20%;
+    }
+    
+    .personalizado-text h1 {
+      font-size: 40px;
+      margin-top: 2%;
+      margin-right: 15%;
+    }
+    
+    .personalizado-text p {
+      font-size: 16px;
+      margin-top: 2%;
+      margin-right: 20%;
+    }
+    
+    .personalizado-cuatro h4 {
+      text-align: center;
+      font-size: 22px;
+      margin-top: -1%;
+    }
+    
+    .uno {
+      width: 27%;
+      position: absolute;
+      bottom: -17px;
+      left: 25%; 
+    }
+    
+    .dos {
+      width: 27%;
+      position: absolute;
+      bottom: -17px;
+      left: 1%;
+    } 
+  }
+
+  @media (max-width: 1366px) {
+
+    .Personalizado {
+      background-image: url(../../assets/img/Rectangle.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      margin-right: 1%;
+      position: relative; 
+    }
+    
+    .personalizado-text {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      margin-left: 20%;
+    }
+    
+    .personalizado-text h1 {
+      font-size: 40px;
+      margin-top: 2%;
+      margin-right: 15%;
+    }
+    
+    .personalizado-text p {
+      font-size: 16px;
+      margin-top: 2%;
+      margin-right: 20%;
+    }
+    
+    .personalizado-cuatro h4 {
+      text-align: center;
+      font-size: 22px;
+      margin-top: -1%;
+    }
+    
+    .uno {
+      width: 22%;
+      position: absolute;
+      bottom: -17px;
+      left: 25%; 
+    }
+    
+    .dos {
+      width: 22%;
+      position: absolute;
+      bottom: -17px;
+      left: 1%;
+    } 
+  }
+
+  @media (max-width: 1274px) {
+
+    .Personalizado {
+      background-image: url(../../assets/img/Rectangle.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      margin-right: 1%;
+      position: relative; 
+    }
+    
+    .personalizado-text {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      margin-left: 20%;
+    }
+    
+    .personalizado-text h1 {
+      font-size: 40px;
+      margin-top: 2%;
+      margin-right: 15%;
+    }
+    
+    .personalizado-text p {
+      font-size: 16px;
+      margin-top: 2%;
+      margin-right: 20%;
+    }
+    
+    .personalizado-cuatro h4 {
+      text-align: center;
+      font-size: 22px;
+      margin-top: -1%;
+    }
+    
+    .uno {
+      width: 29%;
+      position: absolute;
+      bottom: -17px;
+      left: 25%; 
+    }
+    
+    .dos {
+      width: 29%;
+      position: absolute;
+      bottom: -17px;
+      left: 1%;
+    } 
+  }
+
+  @media (max-width: 1216px) {
+
+    .Personalizado {
+      background-image: url(../../assets/img/Rectangle.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      margin-right: 1%;
+      position: relative; 
+    }
+    
+    .personalizado-text {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      margin-left: 20%;
+    }
+    
+    .personalizado-text h1 {
+      font-size: 40px;
+      margin-top: 2%;
+      margin-right: 15%;
+    }
+    
+    .personalizado-text p {
+      font-size: 16px;
+      margin-top: 2%;
+      margin-right: 20%;
+    }
+    
+    .personalizado-cuatro h4 {
+      text-align: center;
+      font-size: 22px;
+      margin-top: -1%;
+    }
+    
+    .uno {
+      width: 23%;
+      position: absolute;
+      bottom: -17px;
+      left: 25%; 
+    }
+    
+    .dos {
+      width: 23%;
+      position: absolute;
+      bottom: -17px;
+      left: 1%;
+    } 
+  }
+
+  @media (max-width: 1024px) {
+
+    .Personalizado {
+      background-image: url(../../assets/img/Rectangle.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      margin-right: 1%;
+      position: relative; 
+    }
+    
+    .personalizado-text {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      margin-left: 20%;
+    }
+    
+    .personalizado-text h1 {
+      font-size: 38px;
+      margin-top: 4%;
+      margin-right: 1%;
+    }
+    
+    .personalizado-text p {
+      font-size: 14px;
+      margin-top: 3%;
+      margin-right: 10%;
+    }
+    
+    .personalizado-cuatro h4 {
+      text-align: center;
+      font-size: 22px;
+      margin-top: -1%;
+    }
+    
+    .uno {
+      width: 30%;
+      position: absolute;
+      bottom: 0;
+      left: 30%; 
+      margin-top: -40%;
+    }
+    
+    .dos {
+      width: 30%;
+      position: absolute;
+      bottom: 0;
+      left: 1%;
+    } 
+  }
+
+  @media (max-width: 768px) {
+
+    .Personalizado{
+      min-height: 50vh;
+      width: 100%;
+    }
+
+    .personalizado-text {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 5%;
+    }
+  
+    .personalizado-text h1 {
+      font-size: 28px;
+      margin-top: 4%;
+      margin-left: 70%;
+    }
+  
+    .personalizado-text p {
+      font-size: 16px;
+      margin-top: -12%;
+      margin-right: 30%;
+    }
+  
+    .personalizado-cuatro h4 {
+      font-size: 16px;
+      margin-top: -1%;
+    }
+  
+    .uno{
+      width: 27%;
+      left: 40%;
+      transform: translateX(-50%);
+    }
+    
+    .dos {
+      width: 27%;
+      left: 20%;
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 500px) {
+
+    .Personalizado {
+     display: flex;
+     flex-direction: column; 
+    }
+
+    .personalizado-text h1 {
+      display: none;
+    }
+
+    .personalizado-text h2{
+      display: block;
+      margin-top: 1%;
+    }
+  
+    .personalizado-text p {
+      font-size: 11px;
+      margin-top: 5%;
+    }
+  
+    .personalizado-cuatro h4 {
+      font-size: 15px;
+      margin-top: 1%;
+    }
+
+    .uno{
+      width: 40%;
+      left: 45%;
+      transform: translateX(-50%);
+    }
+    
+    .dos {
+      width: 40%;
+      left: 18%;
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 400px) {
+
+    .Personalizado {
+     display: flex;
+     flex-direction: column; 
+    }
+
+    .personalizado-text h1 {
+      display: none;
+    }
+
+    .personalizado-text h2{
+      display: block;
+      font-size: 22px;
+      margin-top: 3%;
+      margin-right: 15%;
+    }
+  
+    .personalizado-text p {
+      font-size: 12px;
+      margin: 0;
+      margin-top: 4%;
+    }
+  
+    .personalizado-cuatro h4 {
+      font-size: 17px;
+      margin-top: 1%;
+    }
+
+    .uno{
+      width: 50%;
+      left: 45%;
+      transform: translateX(-50%);
+    }
+    
+    .dos {
+      width: 46%;
+      left: 18%;
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 344px) {
+
+    .Personalizado {
+     display: flex;
+     flex-direction: column; 
+     margin-right: 10%;
+    }
+
+    .personalizado-text h1 {
+      display: none;
+    }
+
+    .personalizado-text h2{
+      display: block;
+      font-size: 24px;
+      margin-top: 5%;
+      margin-right: 15%;
+    }
+  
+    .personalizado-text p {
+      font-size: 12px;
+      margin-right: 25px;
+      margin-top: 6%;
+
+    }
+  
+    .personalizado-cuatro h4 {
+      font-size: 17px;
+      margin-top: 5%;
+      margin-right: 18px;
+    }
+
+    .uno{
+      width: 46%;
+      left: 42%;
+      transform: translateX(-50%);
+    }
+    
+    .dos {
+      width: 46%;
+      left: 15%;
+      transform: translateX(-50%);
+    }
+  }

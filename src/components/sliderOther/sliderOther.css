@@ -1,0 +1,108 @@
+.containerOther {
+  margin: 5% 0;
+  padding: 0 2%;
+}
+.titleOther {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-left: 4rem;
+  font-family: "Hind Vadodara", sans-serif;
+}
+
+.containerSliderOther {
+  position: relative;
+  padding-inline: 4rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  width: auto;
+}
+
+.sliderOther {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.sliderOther .swiper-slide {
+  font-size: 12px;
+  width: 10.66666667%;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.sliderOther .swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: contain;
+}
+
+.sliderOther .swiper-slide div {
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sliderOther .swiper-slide h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.sliderOther .swiper-slide p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.swiper-button-prev-other,
+.swiper-button-next-other {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.swiper-button-prev-other {
+  left: 10px;
+}
+
+.swiper-button-next-other {
+  right: 10px;
+}
+
+.slider-controler-other .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #9b9d9a;
+  transition: color 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.slider-arrow:hover ion-icon {
+  color: #000; 
+}
+.slider-arrow {
+  border: 2px solid #9b9d9a;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.slider-arrow:hover {
+  border-color: #000; 
+}
+.slider-controler-other .slider-arrow::after {
+  content: "";
+}

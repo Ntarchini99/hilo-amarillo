@@ -1,0 +1,160 @@
+.titleProducts {
+  padding: 0 2%;
+  margin-left: 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #4a4538;
+  font-family: "Hind Vadodara", sans-serif;
+}
+
+.containerSlider {
+  padding: 0 2%;
+  margin-bottom: 3rem;
+}
+
+.titleSlider {
+  margin-left: 5rem;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 0;
+  color: #4a4538;
+  font-family: "Hind Vadodara", sans-serif;
+}
+
+.containerSliderGender {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 3.5rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: auto;
+}
+
+.sliderGender {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sliderGender .swiper-slide {
+  height: 100%;
+  width: 30.666666666666664%;
+  border-radius: 25px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.swiper-slide:hover {
+  opacity: 0.9;
+}
+
+.sliderGender .swiper-slide.swiper-slide-active {
+  background-color: #ffd7dd;
+}
+
+.sliderGender .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-size: contain;
+}
+.swiper-slide-image {
+  transition: transform 0.3s ease-in-out;
+}
+.swiper-slide-custom:hover .swiper-slide-image {
+  transform: scale(1.02); 
+}
+.sliderGender .swiper-slide .contentText {
+  padding: 15px 35px;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sliderGender .swiper-slide div h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  margin-bottom: 0;
+}
+.sliderGender .swiper-slide div p {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.slider-controler .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #9b9d9a;
+  transition: color 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.slider-arrow:hover ion-icon {
+  color: #000;
+}
+.slider-arrow {
+  border: 2px solid #9b9d9a;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.slider-arrow:hover {
+  border-color: #000;
+}
+
+.slider-controler .slider-arrow::after {
+  content: "";
+}
+
+
+#productos {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+}
+
+#productos.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#productos.visible.loading {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}

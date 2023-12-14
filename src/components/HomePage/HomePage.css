@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ .home-page {
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: url(../../assets/img/amarillo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+
+  
+  .costura-creativa {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  
+  .text-costura {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 90px;
+    margin-left: -1%;
+  }
+  
+  .p-costura {
+    color: #000000;
+    font-size: 100px;
+  }
+  
+  .costura-creativa ul {
+    margin-top: 2%;
+    margin-left: 2%;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .costura-creativa li {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #4A4538;
+    list-style-type: disc; 
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .parrafo{
+    font-size: 70px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .img-home{
+    width: 38%;
+    position: absolute;
+    bottom: 34px;
+    left: 81%; 
+    transform: translateX(-50%); 
+  } 
+
+  @media (max-width: 1503px) {
+    .home-page {
+      overflow: hidden;
+      min-height: 90vh;
+      background-image: url(../../assets/img/amarillo.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      position: relative;
+    }
+    
+    .costura-creativa {
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+    
+    .text-costura {
+      font-weight: bold;
+      font-size: 72px;
+    }
+    
+    .p-costura {
+      font-size: 75px;
+    }
+    
+    .costura-creativa ul {
+      margin-top: 2%;
+      margin-left: 2%;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .costura-creativa li {
+      font-size: 30px;
+      margin-bottom: 10px;
+      list-style-type: disc; 
+    }
+
+    .parrafo{
+      font-size: 45px;
+    }
+    
+    .img-home {
+      width: 40%;
+      position: absolute;
+      bottom: 27px;
+      left: 80%; 
+      transform: translateX(-50%); 
+    }
+  }
+
+  @media (max-width: 1452px) {
+    .home-page {
+      overflow: hidden;
+      min-height: 90vh;
+      background-image: url(../../assets/img/amarillo.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      position: relative;
+    }
+    
+    .costura-creativa {
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+    
+    .text-costura {
+      font-weight: bold;
+      font-size: 72px;
+    }
+    
+    .p-costura {
+      font-size: 75px;
+    }
+    
+    .costura-creativa ul {
+      margin-top: 2%;
+      margin-left: 2%;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .costura-creativa li {
+      font-size: 30px;
+      margin-bottom: 10px;
+      list-style-type: disc; 
+    }
+
+    .parrafo{
+      font-size: 45px;
+    }
+    
+    .img-home {
+      width: 40%;
+      position: absolute;
+      bottom: 27px;
+      left: 80%; 
+      transform: translateX(-50%); 
+    }
+  }
+
+  @media (max-width: 1274px) {
+    .home-page {
+      overflow: hidden;
+      min-height: 90vh;
+      background-image: url(../../assets/img/amarillo.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      position: relative;
+    }
+    
+    .costura-creativa {
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      margin-top: 10%;
+      margin-left: 1%;
+    }
+    
+    .text-costura {
+      font-size: 72px;
+    }
+    
+    .p-costura {
+      font-size: 75px;
+    }
+    
+    .costura-creativa ul {
+      margin-top: 2%;
+      margin-left: 2%;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .costura-creativa li {
+      font-size: 30px;
+      margin-bottom: 10px;
+      list-style-type: disc; 
+    }
+
+    .parrafo{
+      font-size: 45px;
+    }
+    
+    .img-home {
+      width: 45%;
+      position: absolute;
+      bottom: 50px;
+      left: 80%; 
+      transform: translateX(-50%); 
+    }
+  }
+  
+
+  @media (max-width: 1024px) {
+    .home-page {
+      overflow: hidden;
+      min-height: 90vh;
+      background-image: url(../../assets/img/Rectangle-one.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      position: relative;
+    }
+    
+    .costura-creativa {
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      margin-top: 12%;
+      margin-left: 1%;
+    }
+    
+    .text-costura {
+      font-size: 70px;
+      margin-left: -1%;
+    }
+    
+    .p-costura {
+      font-size: 70px;
+    }
+    
+    .costura-creativa ul {
+      margin-top: 2%;
+      margin-left: 2%;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .costura-creativa li {
+      font-size: 30px;
+      margin-bottom: 10px;
+      list-style-type: disc; 
+    }
+    .parrafo{
+      font-size: 45px;
+    }
+    
+    .img-home {
+      width: 40%;
+      position: absolute;
+      bottom: 0;
+      left: 80%; 
+      transform: translateX(-50%); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+
+    .home-page {
+      background-image: url(../../assets/img/amarillodos.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 10px;
+    }
+
+    .costura-creativa{
+      margin-top: 5%;
+      margin-left: 7%;
+    }
+
+    .text-costura {
+      font-size: 65px;
+    }
+  
+    .p-costura {
+      font-size: 70px;
+    }
+  
+    .costura-creativa li {
+      font-size: 30px;
+    }
+  
+    .parrafo {
+      font-size: 60px;
+    }
+  
+    .img-home {
+      display: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .text-costura {
+      margin-top: 35%;
+      font-size: 40px;
+      margin-left: -1%;
+    }
+  
+    .p-costura {
+     display: none;
+    }
+  
+    .costura-creativa li {
+      font-size: 25px;
+      margin-left: 5%;
+    }
+  
+    .parrafo {
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .text-costura {
+      margin-top: 35%;
+      font-size: 40px;
+      margin-left: -1%;
+    }
+  
+    .p-costura {
+     display: none;
+    }
+  
+    .costura-creativa li {
+      font-size: 25px;
+      margin-left: 5%;
+    }
+  
+    .parrafo {
+      font-size: 39px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .costura-creativa{
+      margin-left: -1%;
+    }
+    .text-costura {
+      margin-top: 35%;
+      font-size: 39px;
+      margin-left: -1%;
+    }
+  
+    .p-costura {
+     display: none;
+    }
+  
+    .costura-creativa li {
+      font-size: 20px;
+      margin-left: 5%;
+    }
+  
+    .parrafo {
+      font-size: 34px;
+    }
+  
+  }
+
+  @media (max-width: 344px) {
+    .text-costura {
+      margin-top: 45%;
+      font-size: 30px;
+      margin-left: -2%;
+    }
+  
+    .p-costura {
+      font-size: 40px;
+    }
+  
+    .costura-creativa li {
+      font-size: 22px;
+    }
+  
+    .parrafo {
+      font-size: 30px;
+    }
+  
+  }

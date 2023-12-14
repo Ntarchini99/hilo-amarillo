@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+  .envios-section {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .envios-container {
+    text-align: center;
+  }
+  
+  .envios-title {
+    margin: 10px 0;
+    
+  }
+  
+  .envios-subtitle {
+    margin: 10px 0;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 240px;
+    padding: 15px;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(255, 255, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 20px rgba(255, 255, 0, 0.5);
+  }
+  
+  .card-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .card-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  
+  .small-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+  .envios-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .envios-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 1024px) {
+    .card {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .card-container {
+      margin: 0;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 80%; 
+      margin: 10px; 
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 15px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 15px;
+    }
+
+    .small-text{
+      font-size: 11px;
+    }
+  }
+
+  @media (max-width: 375px){
+    .small-text {
+      font-size: 11px;
+    }
+  }
