@@ -1,5 +1,4 @@
-# React + Vite | TIENDA HILO AMARILLO
-
+# React + Vite | LANDING PAGE HILO AMARILLO
 
 Proyecto real para una marca de Pijamas, otorgado por CoderHouse.
 
@@ -13,6 +12,6 @@ Instagram: https://www.instagram.com/hiloamarillo_bylp/
 
 Facebook: https://www.facebook.com/profile.php?id=100070294327301
 
-Web:
+Web: https://hiloamarillo.netlify.app/
 
 Figma: https://www.figma.com/file/5IX3vu72NniWfYH2HXxRiV/HiloAmarillo?type=design&node-id=416-2530&mode=design&t=FrHsTDWwaHRvseKq-0
